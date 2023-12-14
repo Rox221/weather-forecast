@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet"  type="text/css" href="Weather.css"/>
+    <script src="Weather.js" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@flaticon/flaticon.css">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+  <div class="card">
+    
+  <div class="search-box">
+   <span class="search-icon">
+    <i class="fa-solid fa-search"></i>
+    </span>
+    <input type="text" id="search" placeholder="Enter location" />
+  </div>
+  <div class="details">
+    <h4 class="location"> <i class="fa fa-location-dot"></i> Yangon </h4>
+    <div class="weather-gif"></div>
+    <h1 class="degree"> 32° </h1>
+    <p class="status"> Sunny </p>
+    <p class="wind"><i class="fa fa-wind wind-icon"></i> Wind &nbsp; &nbsp; &nbsp; &nbsp; | &nbsp; <b>10km/h</b> </p>
+    <p class="hum"><i class="fa fa-droplet hum-icon"></i> Humidity &nbsp; | &nbsp; <b>65%</b></p>
+  </div>
+  <div class="forecast-scroll-container">
+  <div class="forecast-container">
+    <span class="forecast">
+    <p class="days"> MON</p>
+    <i class="bi bi-cloud-sun"></i>
+    <p class="forecast-degree"> 26° </p>
+    </span>
+    <span class="forecast">
+    <p class="days"> TUE</p>
+    <i class="bi bi-cloud-rain"></i>
+    <p class="forecast-degree"> 21° </p>
+    </span>
+    <span class="forecast">
+    <p class="days"> WED</p>
+    <i class="bi bi-cloud-lightning-rain"></i>
+    <p class="forecast-degree"> 19° </p>
+    </span>
+    <span class="forecast">
+    <p class="days"> THU</p>
+    <i class="bi bi-cloud-sun"></i>
+    <p class="forecast-degree"> 24° </p>
+    </span>
+    <span class="forecast">
+    <p class="days"> FRI </p>
+    <i class="bi bi-sun"></i>
+    <p class="forecast-degree"> 36° </p>
+    </span>
+    <span class="forecast">
+    <p class="days"> SAT </p>
+    <i class="bi bi-cloud"></i>
+    <p class="forecast-degree"> 20° </p>
+    </span>
+    <span class="forecast">
+    <p class="days"> SUN </p>
+    <i class="bi bi-snow"></i>
+    <p class="forecast-degree"> 13° </p>
+    </span>
+  </div>
+  </div>
+  </div>
+  </body>
+</html>

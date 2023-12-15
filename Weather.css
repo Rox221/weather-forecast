@@ -114,11 +114,6 @@ input:focus {
   white-space: nowrap;
   scroll-snap-type: x mandatory;
 }
-@media (max-width: 768px) {
-  .forecast-container {
-    scroll-snap-type: none; /* Disable snap for smaller screens */
-    overflow-x: scroll;
-  }
 .forecast{
   width: 60px;
   height: 170px;
@@ -233,4 +228,8 @@ input:focus {
   padding-top: 20px;
   
 }
-
+@media (max-width: 768px) {
+  .forecast-container {
+    scroll-snap-type: none; /* Disable snap for smaller screens */
+    overflow-x: scroll;
+  }
